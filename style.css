@@ -1,0 +1,45 @@
+
+h1 {
+    font-family: "Calibri";
+    font-size: 3rem;
+    color: #825294;
+}
+
+body {
+    font: 1rem "Cambria"; /* si se pone font puedes poner varias propiedades de fuente a la vez */
+    color: rgb(105, 25, 11);
+}
+
+#mort {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.fila {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.col {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(245, 188, 31);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+    padding: 20px;
+}
+
+input['type="text"'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+

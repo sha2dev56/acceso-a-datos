@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box; /*propiedad que permite que las dimensiones de los objetos cuadren, teniendo en cuenta el padding y border en el ajuste */
+}
 h1 {
     font-family: "Calibri";
     font-size: 3rem;
@@ -34,7 +36,7 @@ form {
     padding: 20px;
 }
 
-input['type="text"'] {
+input, textarea {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;

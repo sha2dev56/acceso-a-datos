@@ -1,0 +1,59 @@
+*{
+box-sizing: border-box;
+}
+
+table#primera {
+    background: lavender;
+    border-collapse: collapse;
+    font: 1.1rem 'Segoe UI', sans-serif;
+}
+#primera td {
+    border-bottom: 2px solid white;
+    padding: 5px 20px;
+}
+#primera td:nth-child(2){ /*segunda col*/
+    text-align: center;
+}
+
+#primera tr:nth-child(1) td { /*primera fila*/
+    background: #333;
+    color: #ccc;
+    font-weight: bold;
+}
+#primera tr:nth-child(even) td{ /*Filas pares*/
+background: #ddd;
+}
+
+table#segunda{
+    background: solid white;
+    border-collapse: collapse;
+    font: 1.2rem 'Segoe UI', sans-serif;
+}
+
+#segunda td{
+    border-bottom: 2px solid white;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#segunda tr:nth-child(1) td{
+
+    background: #dcad5d;
+    font-weight: bold;
+}
+#segunda tr:nth-child(2) td{
+
+    background: #d98888
+}
+#segunda tr:nth-child(3) td{
+    background: #bce29d;
+}
+#segunda tr:nth-child(4) td{
+    background: #fffab3;
+}
+#segunda tr:nth-child(5) td{
+    background: #beeebb;
+}
+#segunda tr:nth-child(6) td{
+    background: #f2bf88;
+}

@@ -6,6 +6,7 @@ table#primera {
     background: lavender;
     border-collapse: collapse;
     font: 1.1rem 'Segoe UI', sans-serif;
+    margin-bottom: 20px;
 }
 #primera td {
     border-bottom: 2px solid white;
@@ -27,19 +28,21 @@ background: #ddd;
 table#segunda{
     background: solid white;
     border-collapse: collapse;
+    border: 1px #333;
     font: 1.2rem 'Segoe UI', sans-serif;
 }
 
 #segunda td{
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid black;
     padding: 5px 20px;
     text-align: center;
 }
 
 #segunda tr:nth-child(1) td{
 
-    background: #dcad5d;
+    background: solid white;
     font-weight: bold;
+    border: 1px solid black;
 }
 #segunda tr:nth-child(2) td{
 

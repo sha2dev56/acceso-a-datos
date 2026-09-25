@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #fefefe;
+    font-family: 'Segoe UI', sans-serif;
+}
+table{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+.pequenio{width: 60px;}
+.mediano{width: 200px;}
+.grande{width: 100%;}
+
+textarea{
+    resize: none;
+}

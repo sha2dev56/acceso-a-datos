@@ -1,0 +1,42 @@
+img{
+    width: 400px;
+    aspect-ratio: 1/1; /*que altura debe tener en funcion de la anchura*/
+    object-fit: cover; /*como se ajusta la imagen al contenedor*/
+}
+#avatar{
+    width: 200px;
+    border-radius: 50%; /*para que sea redonda*/
+    border: 5px solid white;
+    box-shadow: 0 4px 8px grey;
+}
+#primero{
+    text-align: right;
+}
+#segundo{
+    text-align: center;
+}
+#tercero{
+    background: url("pruebas/madrid3.jpg") center no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+h3{
+    color: white;
+    text-shadow: 0 3px 6px black;
+    font-size: 2rem;
+    text-align: center;
+}
+video{
+    width: 60%;
+}
+.derecha{
+    text-align: right;
+}
+.centro{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    aspect-ratio: 16/10;
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulario Responsive</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: "Segoe UI", sans-serif;
+            }
+            input,
+            textarea,
+            select,
+            option {
+                font-family: "Segoe UI", sans-serif;
+                font-size: 1rem;
+                padding: 3px 8px;
+            }
+            form {
+                width: 100%;
+                max-width: 600px;
+                margin: auto;
+                background: #f5f5f5;
+                padding: 30px;
+                border: #eee solid 1px;
+            }
+            input,
+            textarea,
+            select {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            input[type="submit"] {
+                width: auto;
+                border: none;
+                background-color: forestgreen;
+                color: white;
+                font-weight: bold;
+                font-size: 1.1rem;
+                padding: 6px 15px;
+            }
+            input[type="checkbox"] {
+                width: auto;
+            }
+            input[type="submit"]:hover {
+                background-color: #29a629;
+                box-shadow: 0 3px 4px grey;
+            }
+            #boton {
+                text-align: right;
+            }
+            .fila {
+                display: flex;
+                align-items: end;
+                gap: 30px;
+            }
+            .columna1 {
+                width: 60%;
+            }
+            .columna2 {
+                width: 40%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formulario Responsive</h1>
+        </header>
+
+        <article>
+            <form action="http://www.cursos-diseño.es/mostrar.php" method="post">
+                Nombre
+                <input type="text" name="nombre" />
+                
+                <div class="fila">
+                    <div class="columna1">
+                        Email
+                        <input type="email" name="email" />
+                    </div>
+                    <div class="columna2">
+                        Teléfono
+                        <input type="text" vame="telefono" />
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna1">
+                        Tipo de habitación
+                        <select name="habitacion">
+                            <option value="i1">Individual</option>
+                            <option value="d2" selected>Doble 2 camas</option>
+                            <option value="d1">Doble matrimonio</option>
+                            <option value="t3">Triple 3 camas</option>
+                            <option value="t2">Triple matrimonio+individual</option>
+                        </select>
+                    </div>
+                    <div class="columna2">
+                        <input type="checkbox" name="desayuno" value="si" />
+                        Desayuno incluido 
+                    </div>
+                </div>
+
+                Comentario
+                <textarea name="comentario" rows="5"></textarea>
+                <div id="boton"><input type="submit" /></div>
+            </form>
+        </article>
+    </body>
+</html>

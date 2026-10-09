@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style08.css">
+    <title>Maquetación</title>
+</head>
+<body>
+
+    <div id="contenedor">
+
+        <header>
+            <h1>Ejemplo de Maquetación</h1>
+        </header>
+
+        <div id="fila">
+
+            <div id="izquierda">
+
+                <h2>Formulario de usuario</h2>
+                <p>Rellena los campos con sus datos personales</p>
+
+                <form action="http://www.cursos-diseño.es/mostrar.php"
+                      method="post">
+
+                    <div class="filaform">
+                        <div class="colform">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+
+                        <div class="colform">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="apellido">
+                        </div>
+                    </div>
+
+                    <div class="filaform">
+                        <div class="colform">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        <div class="colform">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" name="telefono" id="telefono">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <label>
+                        <input type="checkbox" name="acepto" value="si">
+                        Acepto los
+                    </label>
+
+                    <a href="terminosycondiciones.html" target="_blank">
+                        términos y condiciones
+                    </a>
+
+                    <br><br>
+
+                    <div id="boton">
+                        <input type="submit" value="Enviar">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div id="derecha">
+
+                <img src="pruebas/anuncio.gif"
+                     alt="Anuncio publicitario">
+
+        <form action="http://google.es/search" method="get">
+
+            <input type="text" name="q">
+            <input type="hidden" name="udm" value="2">
+
+            <input type="submit" value="buscar">
+            <input type="image" src="img/lupa (1).png">
+        </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

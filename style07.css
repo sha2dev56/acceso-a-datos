@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
+}
+body{
     background-color: orange;
-
 }
 h1{
     font-family: 'Segoe UI', sans-serif;
@@ -9,16 +10,26 @@ h1{
     color: rgb(253, 253, 253);
     text-shadow: 2px 2px 4px black;
 }
-.galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+article{
+    display: flex; /* para que las imágenes se coloquen en fila */
+    flex-wrap: wrap; /* para que las imágenes se ajusten a la pantalla y no se salgan de ella (evitar scroll horizontal) */
+    justify-content: center; /* centra las imágenes horizontalmente para que no sobren espacios */
+    gap: 30px;
 }
 img{
     width: 300px;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border: 10px solid white;
-    box-shadow: 4px 4px 8px black;
-    margin: 30px;
+}
+article div{
+    width: 320px;
+    height: 320px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 1px 3px #888;
+    transition: all 0.2s 0.8s;
+}
+article div:hover{
+    transform: scale(1.1);
 }

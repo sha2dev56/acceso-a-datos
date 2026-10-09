@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+header {
+    background: rgb(228, 252, 255);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#contenedor{
+    width: 1000px;
+    margin: auto;
+    background: rgb(246, 245, 244);
+
+}
+#fila{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+input {
+    width: 100%;
+    font: 1rem 'Segoe UI', sans-serif;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    margin-bottom: 0;
+}
+
+input[type="checkbox"] {
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #29a629;
+    box-shadow: 0 3px 4px grey;
+}
+input[name="q"]{
+    width: 150px;
+}
+input[type="image"]{
+    width: 20px;
+}
+.filaform{
+    display: flex;
+    gap: 20px;
+}
+.colform{
+    width: 50%;
+}
+
+#izquierda{
+    width: 765px;
+    background-color: rgb(254, 214, 220);
+    padding: 30px;
+}
+#derecha{
+    width: 205px;
+}
